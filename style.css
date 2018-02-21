@@ -151,20 +151,12 @@ body {
     html {
         font-size: 50%;
     }
-
-    .wrapper {
-        max-height: 100vh;
-    }
 }
 
 @media (max-width: 799px) {
-    .wrapper {
-        margin-bottom: 3rem;
-    }
-
     .blue-background {
         width: 100vw;
-        height: 100vh;
+        height: 50vh;
         margin-bottom: 3rem;
     }
 }
@@ -172,6 +164,7 @@ body {
 @media (max-width: 800px) {
     .wrapper {
         flex-direction: column;
+        margin-bottom: 3rem;
     }
 }
 
