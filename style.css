@@ -191,6 +191,9 @@ body {
     html {
         font-size: 50%;
     }
+    .wrapper {
+        max-height: 100vh;
+    }
 }
 
 @media (max-width: 799px) {
