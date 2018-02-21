@@ -1,3 +1,20 @@
+/**
+ * TABLE OF CONTENTS 
+ *
+ * GLOBAL ..................... Global settings.
+ *
+ * BLUE-BACKGROUND .................. In here we define the blue background.
+ * 
+ * SUBSCRIBE .................... Responsible for the written content.
+ *
+ * MEDIA ...................... Media queries for smaller screens.
+ *
+ */
+
+/*-------------------------------*\
+   #GLOBAL
+\*-------------------------------*/
+
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +39,14 @@ body {
     padding: 0 5rem;
     margin: auto;
 }
+
+
+
+
+
+/*-------------------------------*\
+   #BLUE-BACKGROUND
+\*-------------------------------*/
 
 .blue-background {
     width: 50%;
@@ -60,6 +85,14 @@ body {
     left: -3%;
     transform: rotate(-30deg);
 }
+
+
+
+
+
+/*-------------------------------*\
+   #SUBSCRIBE
+\*-------------------------------*/
 
 .subscribe {
     width: 50%;
@@ -146,6 +179,13 @@ body {
 .btn--round {
     border-radius: 100rem;
 }
+
+
+
+
+/*-------------------------------*\
+   #MEDIA
+\*-------------------------------*/
 
 @media (max-width: 599px) {
     html {
